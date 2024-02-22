@@ -1,5 +1,5 @@
-pass_1 = input(str())
-pass_2 = input(str())
+pass_1 = str(input())
+pass_2 = str(input())
 if pass_1 == pass_2:
     if len(pass_1) >= 8:
         print("Пароль принят")
